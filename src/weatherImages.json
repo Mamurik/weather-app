@@ -1,0 +1,8 @@
+export default const weatherImages:  = {
+   "clear sky": "path/to/clear-sky.png",
+   "few clouds": "path/to/few-clouds.png",
+   "scattered clouds": "path/to/scattered-clouds.png",
+   "broken clouds": "path/to/broken-clouds.png",
+   "overcast clouds": "path/to/overcast-clouds.png",
+
+ };

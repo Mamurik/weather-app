@@ -1,0 +1,77 @@
+/* Общая настройка для контейнера */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  max-width: 1000px;
+  margin: 20px auto;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  animation: fadeIn 0.5s ease forwards;
+}
+.container:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+/* Заголовок */
+.weater_name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+  text-align: center;
+  animation: slideIn 0.5s ease forwards;
+}
+
+/* Основной текст */
+.weater_text {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #555;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Эффект при наведении на текст */
+.weater_text:hover {
+  color: #007bff;
+  transform: translateY(-5px);
+}
+
+/* Изображение погоды */
+.weather_image {
+  width: 120px;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.weather_image:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
