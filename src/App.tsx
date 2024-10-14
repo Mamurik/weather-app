@@ -8,7 +8,6 @@ const App: FC = () => {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h1 style={{ color: "darkblue", fontStyle: "italic" }}>WEATHER APP</h1>
       <FindModal
         value={input}
         onClick={fetchWeather}

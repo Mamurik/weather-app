@@ -13,6 +13,8 @@ const weatherImages: { [key: string]: string } = {
   "broken clouds": "/BrokenClouds.png",
   "overcast clouds": "/OvercastClouds.png",
   "moderate rain": "/ModerateRain.png",
+  "light rain": "/ModerateRain.png",
+  snow: "/BrokenClouds.png",
 };
 
 const WeatherItem: FC<WeatherItemProps> = ({ weatherData }) => {

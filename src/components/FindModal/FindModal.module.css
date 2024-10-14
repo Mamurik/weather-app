@@ -7,8 +7,8 @@
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   padding: 50px;
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: 30px auto;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
